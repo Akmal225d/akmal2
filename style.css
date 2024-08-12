@@ -1,0 +1,123 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(./1661343549_2-kartinkin-net-p-fon-milnie-puziri-dlya-fotoshopa-krasivo-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 30px;
+
+    @media (max-width:102   0px) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    a {
+        color: rgb(96, 0, 0);
+        text-decoration: none;
+        font-size: 18px;
+
+        &:hover {
+            border-bottom: 1px solid rgb(170, 26, 26);
+        }
+    }
+
+    img {
+        height: 47px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 30px;
+   
+
+        a {
+            color: rgb(238, 238, 238);
+            text-decoration: none;
+            font-size: 20px;
+
+            &:hover {
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+}
+
+
+
+
+.wrap1   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 130px;
+    padding-bottom: 350px;
+
+    @media (max-width:1020px) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    b {
+        color: white;
+        font-size: 70px;
+    }
+
+    p {
+        color: white;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 400px;
+        width: 100%;
+
+
+
+    }
+}
+
+
+
+.button {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width:1000px) {
+        justify-content: center;
+    }
+
+    .btn1 {
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 14px 30px;
+        background-color: rgb(15, 93, 83);
+        font-size: 18px;
+    }
+
+    .btn2 {
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 14px 30px;
+        background-color: blue;
+        font-size: 18px;
+    }
+}
